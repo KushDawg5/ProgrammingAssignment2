@@ -27,5 +27,6 @@ cacheSolve <- function(x, ...) {
   inv <- solve(data)
   x$setInverse(inv)
   inv  
+  
 }
 
